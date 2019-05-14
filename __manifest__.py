@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "mrp_run_scheduler",
+    'name': "Mrp Run Scheduler Automation",
 
     'summary': """
-        Üretim için yapılan mrp geliştirmelerini içeren paket uygulama""",
+        Üretim emri oluşturulması ve satış siparişinin onaylanması sonucunda run_scheduler çalıştırmak için geliştirilen uygulama""",
 
     'description': """
-        Mrp Run Scheduler Paket Uygulaması
+        Üretim emri oluşturulması ve satış siparişinin onaylanması sonucunda run_scheduler çalıştırmak için geliştirilen uygulama
     """,
 
     'author': "MechSoft",
@@ -31,5 +31,6 @@
     'demo': [
         'demo/demo.xml',
     ],
-    'installable': True
+    'installable': True,
+    'application': True
 }
